@@ -15,14 +15,14 @@ int main () {
    float Total_Customers_Purchase_Citrus_Flavored_Energy_Drinks = Total_Customers_Purchase_Energy_Drinks * Percent_of_Customers_Purchase_Citrus_Flavored_Energy_Drinks;
 
    //Customers Buy 1+ Drink Per Week
-   cout << "Customers that buy 1+ energy drink per week" << endl;  
+   cout << "The number of customers that buy 1+ energy drink per week is" << endl;  
    cout << Total_Customers_Purchase_Energy_Drinks << endl;
   
 
    //Customers Purchase Citrus Flavored Energy Drinks
-   cout << "Customers that prefer Citrus Flavored Energy Drinks" << endl;
+   cout << "Of the customers that but 1+ energy drink per week," << endl;
    cout << Total_Customers_Purchase_Citrus_Flavored_Energy_Drinks << endl;
-
+   cout << "prefer citrus flavored drinks"  <<endl;
 
    return 0;
 }
