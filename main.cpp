@@ -6,23 +6,21 @@ int main(){
 
    //constants
    const int Num_Of_Gallons = 20;
-   const float In_Town_Miles_Per_Gallon = 23.5;
-   const float On_The_Highway_Miles_Per_Gallon = 28.9;
+   const float MPG_In_Town = 23.5;
+   const float MPG_On_Highway = 28.9;
 
    //calulations
-   float Town_Distance = Num_Of_Gallons * In_Town_Miles_Per_Gallon;
-   float Highway_Distance = Num_Of_Gallons * On_The_Highway_Miles_Per_Gallon;
+   float Town_Distance = Num_Of_Gallons * MPG_In_Town;
+   float Highway_Distance = Num_Of_Gallons * MPG_On_Highway;
    cout << endl;
 
    //In city
-    cout << "A car can Travels a Distance in Town" << endl;
-    cout << "On a 20 Gallon Gas Tank at 23.5 Miles Per Gallon is: ";
+    cout << "The distance a car can travel in the city on a 20 gallon tank averaging 23.5 miles per gallon is" << endl;
     cout << Town_Distance << " Miles." << endl;
     cout << endl;
 
    //On Highway
-    cout << "A car can Travels a Distance in  Highway" << endl;
-    cout << "On a 20 Gallon Gas Tank at 28.9 Miles Per Gallon is: ";
+    cout << "The distance a car can travel on the highway on a 20 gallon tank averaging 28.9 miles per gallon is" << endl;
     cout << Highway_Distance << " Miles." << endl;
     cout << endl;
 
