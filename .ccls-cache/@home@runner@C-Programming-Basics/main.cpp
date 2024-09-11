@@ -5,7 +5,7 @@ using namespace std;
 
 int main () {
 
-   // constraints
+   // constants
    const int Num_of_Customers = 16500;
    const double Percent_of_Customers_Purchase_Energy_Drinks = 0.15;
    const double Percent_of_Customers_Purchase_Citrus_Flavored_Energy_Drinks = 0.58;
